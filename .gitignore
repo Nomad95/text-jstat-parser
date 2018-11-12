@@ -1,0 +1,12 @@
+./out/**
+.idea
+.idea/uiDesigner.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/compiler.xml
+.idea/description.html
+src/META-INF/**
+.idea/modules.xml
+textJstatParser.iml
+.idea/artifacts/textJstatParser_jar.xml
+.idea/vcs.xml
