@@ -3,6 +3,8 @@ for /f "tokens=1-8 delims=::./ " %%A in ('echo %DATE% %TIME%') do set  FileDateT
 for /f "tokens=1,* delims= " %%a in ("%*") do set ALL_BUT_FIRST=%%b
 setlocal enabledelayedexpansion
 
-echo all but first: %ALL_BUT_FIRST%
+echo started jstat %ALL_BUT_FIRST%
+echo listening...
 
 jstat %ALL_BUT_FIRST% > "%1%-FileDateTime%.txt"
+echo finished
